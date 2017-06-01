@@ -146,7 +146,13 @@
 				TargetAttributes = {
 					6E5D54B11ED7AEC10099200E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K33374WE78;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					6E5D54C51ED7AEC10099200E = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -341,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K33374WE78;
 				INFOPLIST_FILE = GuessThatSong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.GuessThatSong;
@@ -353,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K33374WE78;
 				INFOPLIST_FILE = GuessThatSong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.GuessThatSong;
@@ -408,6 +416,7 @@
 				6E5D54D11ED7AEC10099200E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E5D54D21ED7AEC10099200E /* Build configuration list for PBXNativeTarget "GuessThatSongTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +425,7 @@
 				6E5D54D41ED7AEC10099200E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
